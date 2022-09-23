@@ -1,0 +1,326 @@
+
+
+.container {
+    height: 100vh;
+
+}
+
+.cris {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+}
+
+
+.mobile {
+    border: 1px solid black;
+    min-height: 450px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+header {
+    /* background: linear-gradient(90deg, hsl(264, 100%, 61%) 46%, hsl(293, 100%, 63%) 100%); */
+    background-color: #D2001A;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+
+.bar {
+    width: 150px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50px;
+    position: absolute;
+    top: -8px;
+    left: 60px;
+}
+
+/* Interce Design */
+.start-int {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.heading {
+    color: #D2001A;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+    margin-top: 10px;
+}
+
+.logo {
+    background-color: #D2001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.msg-icon{
+    color: white;
+    font-size: 20px;
+}
+
+.info{
+   font-size: 18px;
+   font-weight: bold;
+   color: #D2001A;
+
+}
+#email,#password{
+    font-size: 12px;
+}
+.btn-start{
+    background-color: #D2001A;
+    color: white;
+}
+label{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.login{
+    /* From https://css.glass */
+background:rgb(223, 211, 211,0.1);
+border-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Home apge design */
+
+.head-input {
+    border-radius: 50px;
+    width: 200px;
+    color: white;
+    padding: 2px 0px 2px 40px;
+    font-size: 14px;
+}
+
+.head-input:focus {
+    box-shadow: none;
+    border: none;
+}
+
+form {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+.nav a {
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.contact {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.contact-img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.con-name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.con-msg {
+    font-size: 11px;
+    color: #323232;
+}
+
+.msg-time {
+    font-size: 11px;
+    margin-top: 15px;
+
+}
+
+.msg-logo{
+    width: 45px;
+    height: 45px;
+    background-color: #D2001A;
+    border-radius: 50%;
+    position: absolute;
+     bottom: 25px;
+     right: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 0px 0px 10px 1px #D2001A;
+}
+.plus-icon{
+    color: white;
+}
+
+/* Chat page design */
+.avatar {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+
+}
+
+.name {
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.status {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.back-arrow {
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.ellipse {
+    color: white;
+    margin-left: 80px;
+}
+
+.body {
+    background-color: rgb(223, 211, 211);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    position: relative;
+}
+
+.box {
+    width: 175px;
+    min-height: 0px;
+    background-color: #323232;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.box-2 {
+    width: 175px;
+    min-height: 10px;
+    background-color: #D2001A;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.msg-2 {
+    font-size: 10px;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.box-3 {
+    width: 100px;
+    min-height: 10px;
+    background-color: #D2001A;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.msg {
+    font-size: 10px;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.dog-image {
+    display: flex;
+}
+
+.dog-img {
+    width: 60px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.walk-time {
+    width: 225px;
+    min-height: 10px;
+    background-color: #AA0000;
+    border-radius: 8px;
+    border-top-left-radius: 15px;
+    display: flex;
+    color: white;
+    column-gap: 3px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.circle {
+    border: 1px solid rgb(206, 198, 198);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.time {
+    font-size: 12px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.rate {
+    font-size: 25px;
+    margin: 0;
+    font-weight: bold;
+}
+
+form {
+    position: relative;
+}
+
+.input {
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 10px 10px 25px;
+}
+
+.input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-send {
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    margin-top: 2px;
+    padding: 5px 13px;
+}
+
+
+
+
